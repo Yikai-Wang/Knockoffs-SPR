@@ -1,0 +1,20 @@
+in_channels : 3
+num_classes : 14
+lr : 0.01
+weight_decay : 0.0001
+epochs : 100
+batch_size : 128
+backbone : 'res50'
+optimizer : 'sgd'
+momentum : 0.9
+scheduler : 'cos'
+grad_bound: 0
+augment: cutmix
+ssl_prob: 0.5
+num_classes_sub: 14
+pretrained: True 
+permute_strategy: 'confident'
+warmup: 0
+threshold: 0.5
+reduce_alg: 'pca'
+beta: 1.0

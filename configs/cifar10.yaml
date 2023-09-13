@@ -1,0 +1,22 @@
+in_channels : 3
+num_classes : 10
+lr : 0.01
+weight_decay : 0.0005
+batch_size : 128
+epochs : 180
+backbone : 'res18'
+optimizer : 'sgd'
+momentum : 0.9
+scheduler : 'cos'
+grad_bound: 0
+augment: cutmix
+ssl_prob: 1.0
+warmup: 0
+threshold: 0.5
+reduce_alg: 'pca'
+num_classes_sub : 10
+num_examples_sub: 75
+resume: 'ckpt/CIFAR10/ssl.pth.tar'
+ssl_pretrained: True
+permute_strategy: 'confident'
+beta: 1.0

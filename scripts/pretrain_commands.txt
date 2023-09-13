@@ -1,0 +1,5 @@
+python pretrain_simsiam.py -a res18 --dataset CIFAR10 --num_classes 10 --save_dir exps/CIFAR10/simsiam-res18 --lr 0.03 --wd 0.0005 --epochs 800
+
+python pretrain_simsiam.py -a inception --dataset WebVision --num_classes 50 --save_dir exps/WebVision/simsiam --gpu 0
+
+python pretrain_simsiam.py -a res50 --dataset clothing1M --num_classes 14 --save_dir exps/clothing1M/simsiam --gpu 1 --b 256
