@@ -95,7 +95,8 @@ If you found the provided code useful, please cite our work.
 @article{wang2023knockoffs,
 title={Knockoffs-SPR: Clean Sample Selection in Learning with Noisy Labels},
 author={Wang, Yikai and Fu, Yanwei and Sun, Xinwei},
-journal={arXiv preprint arXiv:2301.00545},
-year={2023}
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+year={2023},
+doi={10.1109/TPAMI.2023.3338268},
 }
 ```
